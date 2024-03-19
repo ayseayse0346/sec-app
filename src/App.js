@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+//?COMPONENT
+
 
 function App() {
+  //js kodu yazabiliriz.
+  const deneme ="react"
   return (
+
+    //!JSX
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1 style={{color:"red"}}>Hosgeldin ya react</h1>
+    <p>{deneme}</p>
     </div>
   );
 }
